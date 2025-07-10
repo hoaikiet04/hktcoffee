@@ -27,143 +27,233 @@ $(document).ready(function () {
     cafe: [
       {
         name: "Cafe Đen",
-        price: "25.000₫",
-        img: "./assets/image/banner.jpg",
+        price: "20.000₫",
+        img: "./assets/image/cafe.png",
       },
       {
         name: "Cafe Sữa",
-        price: "28.000₫",
-        img: "./assets/image/banner.jpg",
+        price: "22.000₫",
+        img: "./assets/image/cafe_sua.png",
       },
       {
         name: "Bạc Xỉu",
-        price: "30.000₫",
-        img: "./assets/image/banner.jpg",
+        price: "27.000₫",
+        img: "./assets/image/bacxiu.png",
       },
       {
-        name: "Cafe Đen",
-        price: "25.000₫",
-        img: "./assets/image/banner.jpg",
+        name: "Cafe Muối",
+        price: "27.000₫",
+        img: "./assets/image/cafe_muoi.png",
       },
       {
-        name: "Cafe Sữa",
-        price: "28.000₫",
-        img: "./assets/image/banner.jpg",
+        name: "Cacao Sữa",
+        price: "27.000₫",
+        img: "./assets/image/caocao.png",
       },
       {
-        name: "Bạc Xỉu",
-        price: "30.000₫",
-        img: "./assets/image/banner.jpg",
+        name: "Phindi Hạnh Nhân",
+        price: "32.000₫",
+        img: "./assets/image/phindi.png",
       },
       {
-        name: "Cafe Đen",
-        price: "25.000₫",
-        img: "././assets/image/banner.jpg",
-      },
-      {
-        name: "Cafe Sữa",
-        price: "28.000₫",
-        img: "./assets/image/banner.jpg",
+        name: "Cappuchino",
+        price: "32.000₫",
+        img: "./assets/image/cappuchino.png",
       },
     ],
     "tra-trai-cay": [
       {
-        name: "Trà Vải",
-        price: "40.000₫",
-        img: "./assets/image/menu_tea_1.png",
+        name: "Trà Đào Cam Xả",
+        price: "32.000₫",
+        img: "./assets/image/tradao.png",
       },
       {
-        name: "Trà Cam Đào",
-        price: "45.000₫",
-        img: "./assets/image/menu_tea_2.png",
+        name: "Trà Vải Lài",
+        price: "32.000₫",
+        img: "./assets/image/travai.png",
       },
       {
-        name: "Trà Táo",
-        price: "35.000₫",
-        img: "./assets/image/menu_tea_3.png",
+        name: "Trà Ổi Hồng Ngọc Trai",
+        price: "32.000₫",
+        img: "./assets/image/traoi.png",
+      },
+      {
+        name: "Trà Olong Sen Nhãn",
+        price: "32.000₫",
+        img: "./assets/image/tranhan.png",
+      },
+      {
+        name: "Trà Dứa Đác Rim",
+        price: "32.000₫",
+        img: "./assets/image/tradua.png",
+      },
+      {
+        name: "Trà Olong Dứa Chanh Dây",
+        price: "32.000₫",
+        img: "./assets/image/trachanhday.png",
       },
     ],
     "matcha-latte": [
       {
         name: "Matcha Latte",
-        price: "42.000₫",
-        img: "./assets/image/menu_matcha_1.png",
+        price: "30.000₫",
+        img: "./assets/image/matcha.png",
       },
       {
-        name: "Matcha Đá Xay",
-        price: "45.000₫",
-        img: "./assets/image/menu_matcha_2.png",
+        name: "Matcha Latte Sữa Gấu",
+        price: "35.000₫",
+        img: "./assets/image/matchagau.png",
       },
     ],
     "sua-chua": [
       {
-        name: "Sữa Chua Đánh Đá",
-        price: "32.000₫",
-        img: "./assets/image/menu_suachua_1.png",
+        name: "Sữa Chua Đá",
+        price: "27.000₫",
+        img: "./assets/image/suachuada.png",
       },
       {
-        name: "Sữa Chua Trái Cây",
-        price: "38.000₫",
-        img: "./assets/image/menu_suachua_2.png",
+        name: "Sữa Chua Dâu",
+        price: "32.000₫",
+        img: "./assets/image/suachuadau.png",
+      },
+      {
+        name: "Sữa Chua Việt Quất",
+        price: "32.000₫",
+        img: "./assets/image/suachuavietquoc.png",
       },
     ],
     "nuoc-ep": [
       {
-        name: "Nước Ép Cam",
-        price: "35.000₫",
-        img: "./assets/image/menu_ep_1.png",
+        name: "Cam Ép",
+        price: "30.000₫",
+        img: "./assets/image/camep.png",
       },
       {
-        name: "Nước Ép Dứa",
-        price: "32.000₫",
-        img: "./assets/image/menu_ep_2.png",
+        name: "Thơm Ép",
+        price: "30.000₫",
+        img: "./assets/image/thomep.png",
+      },
+      {
+        name: "Ổi Ép",
+        price: "30.000₫",
+        img: "./assets/image/oiep.png",
+      },
+      {
+        name: "Dưa Hấu",
+        price: "30.000₫",
+        img: "./assets/image/duahauep.png",
+      },
+      {
+        name: "Cà Rốt",
+        price: "30.000₫",
+        img: "./assets/image/carotep.png",
+      },
+      {
+        name: "Táo Ép",
+        price: "30.000₫",
+        img: "./assets/image/eptao.png",
+      },
+      {
+        name: "Dừa Trái",
+        price: "23.000₫",
+        img: "./assets/image/epdua.png",
+      },
+      {
+        name: "Dừa Tắc",
+        price: "25.000₫",
+        img: "./assets/image/duatac.png",
       },
     ],
     "sinh-to": [
       {
         name: "Sinh Tố Bơ",
-        price: "40.000₫",
-        img: "./assets/image/menu_sinhto_1.png",
+        price: "32.000₫",
+        img: "./assets/image/bo.png",
       },
       {
         name: "Sinh Tố Dâu",
-        price: "40.000₫",
-        img: "./assets/image/menu_sinhto_2.png",
+        price: "32.000₫",
+        img: "./assets/image/dau.png",
+      },
+      {
+        name: "Sinh Tố Dừa",
+        price: "32.000₫",
+        img: "./assets/image/sap.png",
+      },
+      {
+        name: "Sinh Tố Sapoche",
+        price: "32.000₫",
+        img: "./assets/image/sapoche.png",
+      },
+      {
+        name: "Sinh Tố Mãng Cầu",
+        price: "32.000₫",
+        img: "./assets/image/mangcau.png",
       },
     ],
     "nuoc-ngot": [
       {
-        name: "Coca Cola",
-        price: "20.000₫",
-        img: "./assets/image/menu_ngot_1.png",
+        name: "Sting",
+        price: "16.000₫",
+        img: "./assets/image/sting.png",
       },
       {
-        name: "Sprite",
-        price: "20.000₫",
-        img: "./assets/image/menu_ngot_2.png",
+        name: "Coca Cola",
+        price: "16.000₫",
+        img: "./assets/image/coca.png",
+      },
+      {
+        name: "7up",
+        price: "16.000₫",
+        img: "./assets/image/7up.png",
+      },
+      {
+        name: "Redbull",
+        price: "16.000₫",
+        img: "./assets/image/redbull.png",
+      },
+      {
+        name: "Trà Xanh",
+        price: "16.000₫",
+        img: "./assets/image/traxanh.png",
+      },
+      {
+        name: "Olong",
+        price: "16.000₫",
+        img: "./assets/image/olong.png",
+      },
+      {
+        name: "Nước suối",
+        price: "16.000₫",
+        img: "./assets/image/suoi.png",
       },
     ],
   };
   function renderMenu(category) {
     const grid = $("#menu-grid");
-    grid.empty();
+    grid
+      .empty()
+      .removeClass()
+      .addClass("row menu-grid d-flex justify-content-center flex-wrap");
     const items = menuData[category] || [];
     if (items.length === 0) {
       grid.append('<div class="col-12 text-center">Chưa có sản phẩm.</div>');
       return;
     }
+
     items.forEach((item) => {
       grid.append(`
-            <div class="col-6 col-md-4 col-lg-3 mb-4">
-              <div class="menu-item text-center p-3 h-100">
-                <div class="menu-img mb-3"><img src="${item.img}" alt="${item.name}" class="img-fluid" style="max-height:180px;object-fit:contain;"></div>
-                <div class="menu-name fw-bold mb-1">${item.name}</div>
-                <div class="menu-price">Giá: <b>${item.price}</b></div>
-              </div>
-            </div>
-          `);
+      <div class="col-6 col-md-4 col-lg-3 mb-4">
+        <div class="menu-item text-center p-3 h-100">
+          <div class="menu-img mb-3"><img src="${item.img}" alt="${item.name}" class="img-fluid" style="max-height:180px;object-fit:contain;"></div>
+          <div class="menu-name fw-bold mb-1">${item.name}</div>
+          <div class="menu-price">Giá: <b>${item.price}</b></div>
+        </div>
+      </div>
+    `);
     });
   }
+
   $(function () {
     renderMenu("cafe");
     $(".menu-tab").click(function () {

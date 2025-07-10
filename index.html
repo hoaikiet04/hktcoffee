@@ -54,19 +54,10 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Giới thiệu</a>
+              <a class="nav-link" href="#about-section">Giới thiệu</a>
             </li>
             <li class="nav-item dropdown">
-              <a
-                class="nav-link"
-                href="#"
-                id="productsDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Sản phẩm
-              </a>
+              <a class="nav-link" href="#menu-section"> Menu </a>
             </li>
           </ul>
         </div>
@@ -92,7 +83,7 @@
     </section>
 
     <!-- About Us Section -->
-    <section class="about-section py-5">
+    <section id="about-section" class="about-section py-5">
       <div class="container">
         <div class="row align-items-center">
           <!-- Image with colored bar -->
@@ -208,7 +199,7 @@
     </section>
 
     <!-- Menu Section -->
-    <section class="menu-section py-5">
+    <section id="menu-section" class="menu-section py-5">
       <div class="container">
         <div class="text-center mb-4">
           <h2 class="menu-title mb-2">
@@ -237,7 +228,10 @@
             Nước ngọt có ga
           </button>
         </div>
-        <div class="row menu-grid" id="menu-grid">
+        <div
+          class="row menu-grid d-flex justify-content-center flex-wrap"
+          id="menu-grid"
+        >
           <!-- Sản phẩm sẽ được render ở đây bằng JS -->
         </div>
       </div>
@@ -278,13 +272,15 @@
               </div>
               <div class="open-time-title mb-3">HKT Coffee&Tea</div>
               <div class="text-white mb-3" style="font-size: 1.08rem">
-                "Cà phê nhé" - Một lời hẹn rất riêng của người Việt. Một lời ngỏ
-                mộc mạc để mình ngồi lại bên nhau và sẽ chia câu chuyện của
-                riêng mình.
+                Bạn đang tìm một không gian để làm việc, gặp gỡ bạn bè hay chỉ
+                đơn giản là nạp lại năng lượng? Nằm ở vị trí thuận tiện gần khu
+                dân cư và trường học, HKT Coffee & Tea chính là điểm đến quen
+                thuộc dành cho bạn. Hãy ghé thăm và cảm nhận những khoảnh khắc
+                bình yên cùng hương vị tuyệt vời!
               </div>
               <h2 class="fw-bold text-white mb-3">THỜI GIAN MỞ CỬA</h2>
               <div class="text-white mb-4" style="font-size: 1.15rem">
-                <h3>T2 - CN: 6h - 22h</h3>
+                <h3><b>T2 - CN: 6h - 22h</b></h3>
               </div>
             </div>
           </div>
@@ -308,100 +304,69 @@
         <div class="row mb-4">
           <div class="col-12 text-center">
             <h2 class="gallery-title mb-2">
-              Thư Viện Ảnh
+              Một số hình ảnh về
               <span class="gallery-title-highlight">HKT Coffee&Tea</span>
             </h2>
             <div class="gallery-subtitle mb-3">
-              Không gian được thiết kế tối giản với màu gỗ chủ đạo.<br />
-              <b>HKT Coffee&Tea</b> sẽ cho bạn cảm giác thư giãn thật sự khi
-              đến.
+              Chào mừng bạn đến với không gian của <b>HKT Coffee & Tea!</b> Nơi
+              đây, sự tối giản hòa quyện cùng sắc gỗ ấm áp, tạo nên một chốn
+              dừng chân lý tưởng. Hãy cùng khám phá những góc thư giãn thật sự
+              tại <b>HKT</b> qua bộ sưu tập ảnh dưới đây.
             </div>
           </div>
         </div>
         <div class="row g-4">
           <!-- Gallery Item 1 -->
-          <div class="col-md-4">
+          <div class="col-md-3">
             <div class="gallery-item">
               <img
-                src="./assets/images/gallery-image6.jpg"
+                src="./assets/image/view_1.jpg"
                 alt="HKT Coffee&Tea 1"
                 class="gallery-img"
               />
               <div class="gallery-caption">
-                Chào mừng bạn đến với HKT Coffee&Tea - Dịch vụ Spa tại TP. Hồ
-                Chí Minh. Đội ngũ nhân viên của chúng tôi luôn sẵn sàng hỗ trợ
-                bạn.
+                Không gian ấm cúng, lý tưởng cho những khoảnh khắc thư giãn.
               </div>
             </div>
           </div>
           <!-- Gallery Item 2 -->
-          <div class="col-md-4">
+          <div class="col-md-3">
             <div class="gallery-item">
               <img
-                src="./assets/images/gallery-image2.jpg"
+                src="./assets/image/view_2.jpg"
                 alt="HKT Coffee&Tea 2"
                 class="gallery-img"
               />
               <div class="gallery-caption">
-                Chúng tôi cung cấp các sản phẩm chăm sóc da được tuyển chọn kỹ
-                lưỡng, bao gồm cả các loại dầu massage luôn có sẵn để trải
-                nghiệm tại HKT Coffee&Tea.
+                Từng góc nhỏ đều được chăm chút, tạo nên vẻ đẹp hài hòa và dễ
+                chịu.
               </div>
             </div>
           </div>
           <!-- Gallery Item 3 -->
-          <div class="col-md-4">
+          <div class="col-md-3">
             <div class="gallery-item">
               <img
-                src="./assets/images/gallery-image3.jpg"
+                src="./assets/image/view_3.jpg"
                 alt="HKT Coffee&Tea 3"
                 class="gallery-img"
               />
               <div class="gallery-caption">
-                Không gian sảnh của chúng tôi được thiết kế theo phong cách hiện
-                đại, là một trong những điểm nhấn của HKT Coffee&Tea.
+                Thư thái trong không gian xanh mát, gần gũi thiên nhiên.
               </div>
             </div>
           </div>
           <!-- Gallery Item 4 -->
-          <div class="col-md-4">
+          <div class="col-md-3">
             <div class="gallery-item">
               <img
-                src="./assets/images/gallery-image4.jpg"
+                src="./assets/image/view_5.jpg"
                 alt="HKT Coffee&Tea 4"
                 class="gallery-img"
               />
               <div class="gallery-caption">
-                Hàng tre tại lối vào mang đậm phong cách khu vườn truyền thống,
-                dấu ấn đặc trưng của HKT Coffee&Tea.
-              </div>
-            </div>
-          </div>
-          <!-- Gallery Item 5 -->
-          <div class="col-md-4">
-            <div class="gallery-item">
-              <img
-                src="./assets/images/gallery-image5.jpg"
-                alt="HKT Coffee&Tea 5"
-                class="gallery-img"
-              />
-              <div class="gallery-caption">
-                Trước và sau buổi trị liệu tại spa, hãy thoải mái thư giãn trong
-                không gian sảnh tiện nghi của chúng tôi.
-              </div>
-            </div>
-          </div>
-          <!-- Gallery Item 6 -->
-          <div class="col-md-4">
-            <div class="gallery-item">
-              <img
-                src="./assets/images/gallery-image1.jpg"
-                alt="HKT Coffee&Tea 6"
-                class="gallery-img"
-              />
-              <div class="gallery-caption">
-                Không gian trị liệu của chúng tôi được thiết kế để mang đến môi
-                trường thư giãn cho khách hàng.
+                Góc riêng tư lý tưởng để làm việc, gặp mặt hay đơn giản là tìm
+                thấy bình yên.
               </div>
             </div>
           </div>
@@ -417,9 +382,10 @@
           <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
             <h2>HKT Coffee&Tea</h2>
             <div class="footer-desc mb-3 text-light">
-              Chúng tôi mong muốn HKT Coffee&Tea sẽ trở thành “Nhà Trà”, nơi mọi
-              người xích lại gần nhau và tìm thấy niềm vui, sự sẻ chia thân tình
-              bên những tách cà phê đượm hương, chất lượng.
+              Tại HKT Coffee & Tea, chúng tôi mang đến thực đơn phong phú với cà
+              phê đậm đà, trà trái cây tươi mát và đa dạng thức uống giải khát,
+              sẵn sàng chiều lòng mọi khẩu vị của bạn. Mời bạn hãy đến và trải
+              nghiệm!
             </div>
           </div>
           <!-- Cột 2: Liên hệ -->
