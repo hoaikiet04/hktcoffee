@@ -450,16 +450,19 @@ body {
 
 .open-time-img {
   width: 100%;
-  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
 }
 
 .open-time-img img {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
   border-radius: 0;
   box-shadow: none;
-  max-height: unset;
 }
 
 @media (max-width: 991.98px) {
@@ -475,6 +478,7 @@ body {
   .open-time-col-content,
   .open-time-col-img {
     min-width: 220px;
+    object-fit: cover;
     padding: 1.5rem 1rem;
   }
 
@@ -492,21 +496,31 @@ body {
 
   .open-time-col-content,
   .open-time-col-img {
-    min-width: 0;
-    padding: 1rem 0.5rem;
+    padding: 1.2rem 1rem;
+  }
+
+  .open-time-img {
+    padding: 0.5rem 1rem;
   }
 
   .open-time-img img {
-    max-height: 180px;
+    width: 100%;
     height: auto;
+    object-fit: contain;
+    max-height: unset;
+    border-radius: 8px;
   }
 }
 
 /* Gallery Section */
-.gallery-section {
-  background: #faf9f6;
-  padding-top: 64px;
-  padding-bottom: 64px;
+.gallery-caption {
+  .gallery-caption {
+    padding: 12px;
+    color: #444;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    text-align: center;
+  }
 }
 .gallery-title {
   font-size: 2.4rem;
@@ -526,22 +540,21 @@ body {
   margin-bottom: 1.5rem;
 }
 .gallery-item {
-  height: 340px;
   background: #fff;
   border-radius: 8px;
   overflow: hidden;
   display: flex;
   flex-direction: column;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+  height: auto; /* ✅ bỏ chiều cao cứng */
 }
 
 .gallery-img {
   width: 100%;
-  height: 240px;
+  height: 220px; /* Cho desktop */
   object-fit: cover;
   object-position: center;
   border-radius: 8px 8px 0 0;
-  flex-shrink: 0;
   transition: transform 0.3s;
 }
 
@@ -559,17 +572,29 @@ body {
 
 @media (max-width: 991.98px) {
   .gallery-img {
-    height: 160px;
+    height: 120px;
   }
 }
 @media (max-width: 767.98px) {
   .gallery-title {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+  }
+
+  .gallery-subtitle {
+    font-size: 0.95rem;
+    width: 100%;
+    padding: 0 15px;
+  }
+
+  .gallery-caption {
+    font-size: 0.9rem;
+    padding: 10px;
   }
   .gallery-img {
-    height: 120px;
+    height: 160px;
   }
 }
+
 /* Footer Section */
 .footer-section {
   background: #232623 url("../image/banner.jpg") center center/cover no-repeat;
